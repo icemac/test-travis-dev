@@ -1,0 +1,51 @@
+language: python
+
+matrix:
+    include:
+        - name: "2.7-dev-xenial"
+          python: "2.7-dev"
+          dist: xenial
+        - name: "2.7-dev-bionic"
+          python: "2.7-dev"
+          dist: bionic
+
+        - name: "3.5-dev-xenial"
+          python: "3.5-dev"
+          dist: xenial
+        - name: "3.5-dev-bionic"
+          python: "3.5-dev"
+          dist: bionic
+
+        - name: "3.6-dev-xenial"
+          python: "3.6-dev"
+          dist: xenial
+        - name: "3.6-dev-bionic"
+          python: "3.6-dev"
+          dist: bionic
+
+        - name: "3.7-dev-xenial"
+          python: "3.7-dev"
+          dist: xenial
+        - name: "3.7-dev-bionic"
+          python: "3.7-dev"
+          dist: bionic
+
+        - name: "3.8-dev-xenial"
+          python: "3.8-dev"
+          dist: xenial
+        - name: "3.8-dev-bionic"
+          python: "3.8-dev"
+          dist: bionic
+
+        - name: "3.9-dev-xenial"
+          python: "3.9-dev"
+          dist: xenial
+        - name: "3.9-dev-bionic"
+          python: "3.9-dev"
+          dist: bionic
+
+install:
+    - pip install -U pip
+
+script:
+    - echo "Success"
