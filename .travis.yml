@@ -2,11 +2,12 @@ language: python
 
 matrix:
     include:
-        - name: "2.7-dev-xenial"
-          python: "2.7-dev"
+
+        - name: "3.5-xenial"
+          python: "3.5"
           dist: xenial
-        - name: "2.7-dev-bionic"
-          python: "2.7-dev"
+        - name: "3.5-bionic"
+          python: "3.5"
           dist: bionic
 
         - name: "3.5-dev-xenial"
@@ -16,6 +17,13 @@ matrix:
           python: "3.5-dev"
           dist: bionic
 
+        - name: "3.6-xenial"
+          python: "3.6"
+          dist: xenial
+        - name: "3.6-bionic"
+          python: "3.6"
+          dist: bionic
+
         - name: "3.6-dev-xenial"
           python: "3.6-dev"
           dist: xenial
@@ -23,11 +31,25 @@ matrix:
           python: "3.6-dev"
           dist: bionic
 
+        - name: "3.7-xenial"
+          python: "3.7"
+          dist: xenial
+        - name: "3.7-bionic"
+          python: "3.7"
+          dist: bionic
+
         - name: "3.7-dev-xenial"
           python: "3.7-dev"
           dist: xenial
         - name: "3.7-dev-bionic"
           python: "3.7-dev"
+          dist: bionic
+
+        - name: "3.8-xenial"
+          python: "3.8"
+          dist: xenial
+        - name: "3.8-bionic"
+          python: "3.8"
           dist: bionic
 
         - name: "3.8-dev-xenial"
