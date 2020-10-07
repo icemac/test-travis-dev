@@ -66,6 +66,13 @@ matrix:
           python: "3.9-dev"
           dist: bionic
 
+        - name: "nightly-xenial"
+          python: "nightly"
+          dist: xenial
+        - name: "nightly-bionic"
+          python: "nightly"
+          dist: bionic
+
 install:
     - pip install -U pip
 
